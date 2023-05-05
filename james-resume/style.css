@@ -1,0 +1,119 @@
+/* --------start of example-------- */
+header{
+    font-size: 100px;
+    background-color: aqua;
+    color:yellow;
+    
+}
+.firstpage{
+    background-color: aqua;
+margin: 0;
+padding: 0;
+background: aqua;
+}
+.beach{
+    height: 400px;
+    width: 313px;
+    background-size: contain;
+    
+}
+.beach:hover{
+        opacity: 0.5;
+   }
+.cvs {
+    color: aqua;
+    font-size:50px;
+    background: white;
+}
+ul
+{
+    border-top: solid; 
+    background:white ;
+    
+}
+h3{
+    color: #009900;
+    box-sizing: content-box;    
+    background: white;
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 16px;
+    background-clip: content-box;
+
+}
+.icon{
+   padding-top: 20px;
+    width: 30px;
+    background: white;
+}
+form{
+    padding: 40px;
+}
+h1{
+    font-size: 50px;
+   
+}
+.one{
+    background-image: url(img/plane.jpg);
+    background-attachment: fixed;
+}
+footer{
+    background: white;
+}
+/* --------end of example-------- */
+
+
+
+/* --------start of schedule-------- */
+.schedule{
+    background-image:url(img/boat.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.calender{
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    padding: 100px;
+}
+
+.month{
+    text-align: center;
+    background: white;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: black;
+    border: 2px solid red;
+}
+
+table,th,td{
+    width: 50%;
+    height: 30%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse:collapse;
+    border: 5px solid black;
+    font-family: sans-serif;
+    padding:10px,10px,10px,10px
+}
+
+tr,th,td{
+    padding: 15px;
+}
+th{
+    background: #009900;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    background: #00264d;
+    color: yellow;
+}
+td:hover{
+    background: green;
+
+}
+/* --------end of schedule-------- */

@@ -1,0 +1,435 @@
+
+
+.header{
+   background-image: url(https://th.bing.com/th/id/OIP.NHy5lPn7uJNqWrBjrp18GwHaFp?w=245&h=187&c=7&r=0&o=5&pid=1.7);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   padding: 100px 0px 23px 10px;
+   margin: 0;
+}
+.body2{
+     background-color: rgb(180, 254, 180);
+}
+
+.h1{
+    font-weight: bold;
+    color: black;
+    font-size: 70px;
+    background-size: 300px;
+    text-shadow: 4px 4px 2px rgb(28, 164, 16);
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+}
+
+.body{
+    background-color: rgb(219, 227, 226);
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin: 0;
+}
+
+.direction-nav {
+    padding: 150px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.mypic{
+     border-radius: 50%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 110%;
+          height: 500px;
+          padding: 11px 13px 9px 0;
+          opacity: 1.0;
+}
+
+.img{
+     border-radius: 50%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 110%;
+     height: 500px;
+     padding:11px 13px 9px 0 ;
+     opacity:1.0;
+}
+.img:hover{
+     opacity: 0.5;
+}
+
+.description{
+     padding : 0 ;margin : 0;
+     display:inline ;
+}
+
+.h2{
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-color: green;
+    background-color: white;
+    font-size: 50px;
+    font-weight: 200;
+}
+.info{
+     display: grid;
+     background-color: rgb(180, 254, 180);
+}
+
+.p{
+    padding: 0;
+    margin: 0;
+    border-style: double;
+    border-color: green;
+    background-color: white;
+    border-width: 5px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: justify;
+}
+.ul{
+     font-size: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: double;
+     border-color: green;
+     background-color: white;
+     display: table-caption;
+     text-align: initial;
+}
+.box{
+     width: 45%;
+     height: 100%;
+     margin: 20px;
+     display: inline-grid;
+     background-color: rgb(180, 254, 180);
+     border: solid;
+
+}
+
+.box2{
+     width: 500px;
+     height: 600px;
+     margin: 10px;
+     display: inline-block;
+     background-color: black;
+     align-content: center;
+     justify-content: space-between;
+     justify-items: stretch;
+}
+.box3 {
+     width: 45%;
+     height: 100px;
+     margin: 20px;
+     display: inline-grid;
+     background-color: rgb(180, 254, 180);
+     padding: 0 0 190px 20px;
+}
+.box4 {
+     width: 45%;
+     height: 100px;
+     margin: 50px;
+     display: inline-grid;
+     background-color: rgb(180, 254, 180);
+}
+.box5 {
+     width: 45%;
+     height: 50%;
+     margin: 20px;
+     display: contents;
+     justify-content: space-around;
+
+}
+.img{
+     border-radius: 13%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 106%;
+          height: 345px;
+          padding: 18px 0px 30px 0px;
+          opacity: 1.0;
+     }
+
+
+.h3{
+    font-size: 100px;
+    color: blue; 
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    text-shadow: 4px 4px 2px rgb(164, 16, 16);
+}
+
+.info-table{
+      display:contents;  
+      font-size: 30px; 
+      padding: 115px 20px 74; 
+      background-color: rgb(180, 254, 180); 
+      margin: 0;
+      border-color: black;
+      border:solid
+ }  
+
+.portfolo{
+     background-image: url(https://th.bing.com/th/id/OIP.Ei6F_WbcxsheQrWzJOeRQwHaEL?w=292&h=180&c=7&r=0&o=5&pid=1.7);
+     margin: 0;
+     display: flow-root;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     padding: 100px 0px 23px 10px;
+}
+
+
+
+/* start of button-1 */
+.btn-1 {
+     width: 100px;
+     height: 50px;
+     border: none;
+     color: black;
+     border-radius: 4px;
+     box-shadow: ease-out 0.3s;
+     font-size: 2rems;
+     outline: black solid;
+     border: 3px soild blue;
+     position: relative;
+     z-index: 1;
+}
+
+.btn-1 {
+     color: green;
+     cursor: grab;
+}
+
+.btn-1:before {
+     transition: 0.5s all ease;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     right: 50%;
+     bottom: 0;
+     opacity: 0;
+     content: "";
+     background-color: blue;
+}
+
+.btn-1:hover:before {
+     transition: 0.5s all ease;
+     left: 0;
+     right: 0;
+     opacity: 1;
+     z-index: -1;
+}
+/* end of button-1 */
+
+/* start of button-2 */
+.btn-2 {
+     width: 100px;
+     height: 50px;
+     border: none;
+     color: white;
+     border-radius: 4px;
+     box-shadow: ease-out 0.3s;
+     font-size: 2rems;
+     outline: black solid;
+     border: 3px soild blue;
+     position: relative;
+     z-index: 1;
+}
+
+.btn-2 {
+     color: green;
+     cursor: grab;
+}
+
+.btn-2:before {
+     transition: 0.5s all ease;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     right: 50%;
+     bottom: 0;
+     opacity: 0;
+     content: "";
+     background-color: red
+}
+
+.btn-2:hover:before {
+     transition: 0.5s all ease;
+     left: 0;
+     right: 0;
+     opacity: 1;
+     z-index: -1;
+}
+/* end of button-2 */
+
+/* start of button-3 */
+.btn-3 {
+     width: 100px;
+     height: 50px;
+     border: none;
+     color: white;
+     border-radius: 4px;
+     box-shadow: ease-out 0.3s;
+     font-size: 2rems;
+     outline: black solid;
+     border: 3px soild blue;
+     position: relative;
+     z-index: 1;
+}
+
+.btn-3 {
+     color: black;
+     cursor: grab;
+}
+
+.btn-3:before {
+     transition: 0.5s all ease;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     right: 50%;
+     bottom: 0;
+     opacity: 0;
+     content: "";
+     background-color: green
+}
+
+.btn-3:hover:before {
+     transition: 0.5s all ease;
+     left: 0;
+     right: 0;
+     opacity: 1;
+     z-index: -1;
+}
+/* end of 3 button */
+/* start of 4 button */
+.btn-4 {
+     width: 100px;
+     height: 50px;
+     border: none;
+     color: white;
+     border-radius: 4px;
+     box-shadow: ease-out 0.3s;
+     font-size: 2rems;
+     outline: black solid;
+     border: 3px soild blue;
+     position: relative;
+     z-index: 1;
+}
+
+.btn-4 {
+     color: green;
+     cursor: grab;
+}
+
+.btn-4:before {
+     transition: 0.5s all ease;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     right: 50%;
+     bottom: 0;
+     opacity: 0;
+     content: "";
+     background-color: yellow
+}
+
+.btn-4:hover:before {
+     transition: 0.5s all ease;
+     left: 0;
+     right: 0;
+     opacity: 1;
+     z-index: -1;
+}
+/* end of button-4 */
+/* start of hulu */
+ .bodyh{
+     background: black;
+}
+ .hulu {
+padding:100px 100px 100px 100px;
+color: green;
+font-size: 50px;
+}
+.top-picks{
+     font-size: 100px;
+background-color: black;
+     border: none;
+     color: white;
+     justify-content: space-around;
+     display: flex;
+     padding: 0px 0px 30px 0px;
+     flex-direction: row;
+     align-items: center;
+}
+.a{
+     border-left-width: 4px;
+}
+.info{
+     padding: 50px 50px 50px 50px ;
+     color: white;
+     background-color: black;
+     border: none;
+     font-size: 20px;
+     align-items: center;
+     justify-content: space-around;
+     display: flex;
+}
+.nav{
+     padding: 10px 10px 10px 10px;
+     text-decoration-line: inherit;
+     word-spacing: 4rem;
+}
+mark{
+     background-color: brown;
+     color:white;
+}
+.wntop{
+     color: white;
+     font-size: 50px;
+      /* justify-content: space-around; */ 
+          display: flex;
+          padding: 14px 0px 45px 550px;
+          flex-direction: row;
+          align-items: center;
+          border: none;
+}
+.wnmark{
+     color: yellow;
+     background-color: black;
+}
+
+.wn{
+     background-color: black;
+}
+
+.wnlogo{
+border-radius: 13%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 200px;
+     height: 80px;
+     padding: none;
+     opacity: none;
+}
+.pwn{
+     background-color: black;
+     border: none;
+     color: white;
+     justify-content: space-around;
+     display: flex;
+     padding: 0px 0px 30px 0px;
+     flex-direction: row;
+          align-items: center;
+}
+ .wnshare{
+background-color: black;
+     border: none;
+     color: white;
+     justify-content: space-around;
+     display: flex;
+     padding: 0px 0px 30px 0px;
+     flex-direction: row;
+     align-items: center;
+     font-size: 40px;
+ }
